@@ -1,0 +1,16 @@
+[
+{
+  "modid": "dismantler",
+  "name": "Dismantler",
+  "description": "A Tool used for dismantling multiblock structures in one go.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["BloodWorkXGaming"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
