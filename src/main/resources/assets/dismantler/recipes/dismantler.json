@@ -1,0 +1,21 @@
+{
+  "result": {
+    "item": "dismantler:item_dismantler"
+  },
+  "pattern": [
+    " or",
+    " oo",
+    "o  "
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "o": {
+      "type": "forge:ore_dict",
+      "ore": "obsidian"
+    },
+    "r": {
+      "type": "forge:ore_dict",
+      "ore": "blockRedstone"
+    }
+  }
+}
