@@ -6,6 +6,9 @@ import atm.bloodworkxgaming.dismantler.integration.woot.WootStructure;
 import com.valkyrieofnight.et.m_multiblocks.m_lightningrod.features.LRBlocks;
 import com.valkyrieofnight.et.m_multiblocks.m_lightningrod.tile.TileContLightningBase;
 import com.valkyrieofnight.et.m_multiblocks.m_lightningrod.tile.cont.*;
+import com.valkyrieofnight.et.m_multiblocks.m_nanobot.MNanoBotBeacon;
+import com.valkyrieofnight.et.m_multiblocks.m_nanobot.features.NBBlocks;
+import com.valkyrieofnight.et.m_multiblocks.m_nanobot.m_personal.features.PBlocks;
 import com.valkyrieofnight.et.m_multiblocks.m_nanobot.structure.NBStructures;
 import com.valkyrieofnight.et.m_multiblocks.m_solar.features.SABlocks;
 import com.valkyrieofnight.et.m_multiblocks.m_solar.tile.cont.*;
@@ -47,6 +50,13 @@ public class DismantleHelper {
             DISMANTLE_TYPES.add(new EnvoTechStructures(TileContLightningT4.STRUCTURE, LRBlocks.LIGHTNING_CONT_4));
             DISMANTLE_TYPES.add(new EnvoTechStructures(TileContLightningT5.STRUCTURE, LRBlocks.LIGHTNING_CONT_5));
             DISMANTLE_TYPES.add(new EnvoTechStructures(TileContLightningT6.STRUCTURE, LRBlocks.LIGHTNING_CONT_6));
+
+            DISMANTLE_TYPES.add(new EnvoTechStructures(NBStructures.T1, PBlocks.NANO_PERSONAL_1));
+            DISMANTLE_TYPES.add(new EnvoTechStructures(NBStructures.T2, PBlocks.NANO_PERSONAL_2));
+            DISMANTLE_TYPES.add(new EnvoTechStructures(NBStructures.T3, PBlocks.NANO_PERSONAL_3));
+            DISMANTLE_TYPES.add(new EnvoTechStructures(NBStructures.T4, PBlocks.NANO_PERSONAL_4));
+            DISMANTLE_TYPES.add(new EnvoTechStructures(NBStructures.T5, PBlocks.NANO_PERSONAL_5));
+            DISMANTLE_TYPES.add(new EnvoTechStructures(NBStructures.T6, PBlocks.NANO_PERSONAL_6));
 
             try {
                 DISMANTLE_TYPES.add(new EnvoTechStructures((IMultiBlockStructure) FieldUtils.readStaticField(TileContSolarT1.class, "STRUCTURE", true), SABlocks.SOLAR_CONT_1));

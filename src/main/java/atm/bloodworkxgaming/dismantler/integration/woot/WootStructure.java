@@ -64,7 +64,7 @@ public class WootStructure extends DismantleType {
             BlockPos t4 = bottom.west(i);
             IBlockState t4State = worldIn.getBlockState(t4);
 
-            if (t4State.getValue(BlockMobFactoryStructure.MODULE) == factoryModuleMap.get(i)) {
+            if (t4State.getBlock() instanceof BlockMobFactoryStructure && t4State.getValue(BlockMobFactoryStructure.MODULE) == factoryModuleMap.get(i)) {
                 return Math.min(i, 4);
             }
         }
