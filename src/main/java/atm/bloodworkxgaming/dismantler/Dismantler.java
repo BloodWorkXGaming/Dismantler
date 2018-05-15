@@ -15,7 +15,7 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 public class Dismantler
 {
     public static final String MODID = "dismantler";
-    public static final String VERSION = "0.1.1";
+    public static final String VERSION = "0.1.2";
 
     @SidedProxy(serverSide = "atm.bloodworkxgaming.dismantler.proxy.ServerProxy", clientSide = "atm.bloodworkxgaming.dismantler.proxy.ClientProxy")
     public static CommonProxy proxy;
