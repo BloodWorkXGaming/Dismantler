@@ -1,11 +1,10 @@
 package atm.bloodworkxgaming.dismantler.integration.envoTech;
 
 import atm.bloodworkxgaming.dismantler.integration.DismantleType;
-import com.valkyrieofnight.valkyrielib.api.multiblock.structure.IMultiBlockStructure;
-import com.valkyrieofnight.valkyrielib.api.util.BlockOffset;
+import com.valkyrieofnight.vlib.api.multiblock.structure.IMultiBlockStructure;
+import com.valkyrieofnight.vlib.api.util.BlockOffset;
 import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;
-import net.minecraft.entity.item.EntityItem;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.NonNullList;

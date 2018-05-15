@@ -1,8 +1,6 @@
 package atm.bloodworkxgaming.dismantler.integration.woot;
 
 import atm.bloodworkxgaming.dismantler.integration.DismantleType;
-import com.valkyrieofnight.valkyrielib.api.multiblock.structure.IMultiBlockStructure;
-import com.valkyrieofnight.valkyrielib.api.util.BlockOffset;
 import gnu.trove.map.TIntObjectMap;
 import gnu.trove.map.hash.TIntObjectHashMap;
 import ipsis.Woot;
@@ -11,12 +9,8 @@ import ipsis.woot.block.BlockMobFactoryStructure;
 import ipsis.woot.init.ModBlocks;
 import ipsis.woot.multiblock.EnumMobFactoryModule;
 import ipsis.woot.multiblock.EnumMobFactoryTier;
-import ipsis.woot.multiblock.FactoryPatternRepository;
 import ipsis.woot.tileentity.ILayoutBlockInfo;
-import net.minecraft.block.Block;
-import net.minecraft.block.properties.PropertyDirection;
 import net.minecraft.block.state.IBlockState;
-import net.minecraft.entity.item.EntityItem;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.EnumFacing;
